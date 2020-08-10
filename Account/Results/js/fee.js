@@ -7,4 +7,5 @@ $(document).ready(function(){
  for(var NoLevel=0;NoLevel<=Level;NoLevel++)
       document.getElementById("parentId").innerHTML += "<div>col"+i+"</div>";
 });
+    
 })

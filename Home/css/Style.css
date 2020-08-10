@@ -104,39 +104,40 @@ body
     padding-left:30px;
 }
     /*End nav bar*/
-     
-   /*start Slider*/
-   .slider
+    /*************************************start home page*********************************************/
+
+   /*start Slider home page*/
+   .sliderHomepage
    {
       background-color: #DDD;
    }
-   .slider .carousel-item
+   .sliderHomepage .carousel-item
    {
       -webkit-background-size:cover;
       -moz-background-size:cover;
       -o-background-size:cover;
       background-size:cover;
    }
-   .slider .carousel-one
+   .sliderHomepage .carousel-one
    {
       background-image: url('../images/fee/00.jpg');
    }
-   .slider .carousel-two
+   .sliderHomepage .carousel-two
    {
       background-image: url('../images/fee/01.jpg');
    }
-   .slider .carousel-three
+   .sliderHomepage .carousel-three
    {
       background-image: url('../images/fee/02.jpg');
    }
-   .slider .carousel-indicators li{
+   .sliderHomepage .carousel-indicators li{
       height: 8px;
       cursor: pointer;
    }
-   /*End Slider*/
-   /*about-main*/
+   /******************************************************End Slider************************************************/
+   /******************************************************about-main************************************************/
 
-.frame
+.abouthomepage .frame
 { 
     box-shadow: inset 0 0 0 6px #741a40;
     -webkit-transform: scale(1);
@@ -146,7 +147,7 @@ body
     width: 430px;
     margin: 70px
 }
-.frame img
+.abouthomepage .frame img
 {
     max-width: 100%;
     -webkit-transform: translate(30px, 30px);
@@ -156,7 +157,7 @@ body
     width: 430px;
    
 }
-   .about-main h2{
+  .abouthomepage .about-main h2{
       margin-top: 80px;
       color: #741a40;
       font-weight: bold;
@@ -487,7 +488,8 @@ body
      }
      .footer .footer-logo .logo
      {
-      margin-left: 300px;
+      margin-left: 350px;
+         width: 230px;
      }
      .footer .copyright
      {

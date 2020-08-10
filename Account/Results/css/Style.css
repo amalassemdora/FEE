@@ -151,20 +151,30 @@ body
     color: #741a40;
     margin-bottom: 20px;
 }
+.Dept-registeration .save-button,
 .result-button
 {
-
    background-color: #cec6c9;
    border-color: #cec6c9;  
    color: black;
     margin-left: 150px;
 }
+.Dept-registeration .save-button
+{
+    background-color: #741a40;
+    color: white;
+    border-color: #741a40;  
+    min-width: 100px;
+    margin-left: 600px;
+}
+.Dept-registeration .save-button:hover,
 .result-button:hover
 {
     background-color: #741a40;
     color: white;
     border-color: #741a40;  
 }
+.Dept-registeration .save-button:active,
 .result-button:active
 {
     background-color: #741a40;
@@ -172,7 +182,21 @@ body
     border-color: #741a40;  
 }
 
-/*End history*/
+/***********************************End result*/
+/************************************start Dept-registeration***********************************/
+.Dept-registeration h1
+{
+   margin-top: 50px; 
+}
+.Dept-registeration .poll
+{
+margin: 50px;
+}
+.Dept-registeration label
+{
+    margin-right: 0px;
+}
+
 
 /*start footer*/
   .footer
